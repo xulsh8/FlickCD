@@ -1,0 +1,5 @@
+torch
+tqdm
+numpy
+opencv-python
+timm==0.5.4 
