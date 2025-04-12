@@ -55,10 +55,10 @@ We conduct experiments on four datasets: **SYSU**, **WHU**, **LEVIR+**, and **CD
 ```
 
 ### Model Training
-First, set the data path, number of training epochs, learning rate, and other basic parameters in the `train.sh` script. For more advanced configuration options, please modify the `train.py` file directly.
+First, set the data path, number of training epochs, learning rate, and other basic parameters in the `trainAndtest.sh` script. For more advanced configuration options, please modify the `train.py` file directly.
 Then, run the following command to start training:
 ```
-sh train.sh
+sh trainAndtest.sh
 ```
 After training is complete, a result folder will be generated in the current directory.
 It includes:
