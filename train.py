@@ -262,7 +262,7 @@ def main():
     parser.add_argument('--gpu_id', type=int, default=0)
 
     # Hyper-parameter
-    parser.add_argument('--batch_size', type=int, default=16)
+    parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--input_size', type=int, default=256)
     parser.add_argument('--epochs', type=int, default=200)
     parser.add_argument('--learning_rate', type=float, default=1e-4)
