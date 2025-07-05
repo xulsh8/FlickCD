@@ -31,7 +31,7 @@ class Trainer(object):
         window_size=None
         stride=None
         load_pretrained = False
-        if args.data_name == 'SYSU' or 'CDD':
+        if args.data_name == ['SYSU', 'CDD']:
             window_size = (8, 8, 16)
             stride = (4, 4, 8)
         elif args.data_name == 'WHU':
