@@ -9,13 +9,13 @@
 * **FlickCD** adopts an encoder-decoder architecture, where a Siamese structure is used to process the bi-temporal images. The extracted features are then passed through the Enhanced Difference Module (EDM) to capture change-related information, followed by a lightweight decoder that further analyzes and refines the difference features, ultimately generating a binary change map.
 
 <p align="center">
-  <img src="figures/ModelOverview.jpg" alt="ModelOverview" width="90%">
+  <img src="figures/ModelOverview.png" alt="ModelOverview" width="90%">
 </p>
 
 * Architectural Diagram of the Local-Global Fusion Block (LGFB)
 
 <p align="center">
-  <img src="figures/SWSA&EGSA.jpg" alt="SWSA&EGSA" width="90%">
+  <img src="figures/SWSA_EGSA.png" alt="SWSA&EGSA" width="90%">
 </p>
 
 ## Get Started
