@@ -104,7 +104,7 @@ class Trainer(object):
             self.args.resume = self.model_save_path + '/checkpoint.pth.tar'
         if os.path.isfile(self.args.resume):
             print("=> loading checkpoint '{}'".format(self.args.resume))
-            checkpoint = torch.load(self.args.resume)
+            checkpoint = torch.load(self.args.resume, weights_only=False)
             self.start_epoch = checkpoint['epoch']
             self.best_f1 = checkpoint['best_f1']
             self.best_epoch = checkpoint['best_epoch']
